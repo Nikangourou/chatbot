@@ -1,0 +1,74 @@
+{
+    "datas" : {
+        "voitures" : {
+            "S60" : {
+                "marque" : "Volvo",
+                "couleur" : "noir",
+                "prix" : 30000,
+                "options" : {
+                    "climatisation" : true,
+                    "siegeChauffant" : true,
+                    "siegeElectrique" : true,
+                    "toitOuvrant" : false
+                },
+                "moteur" : {
+                    "type" : "essence",
+                    "puissance" : 200,
+                    "consommation" : 8.5
+                }
+            },
+            "V60" : {
+                "marque" : "Volvo",
+                "couleur" : "blanc",
+                "prix" : 35000,
+                "options" : {
+                    "climatisation" : true,
+                    "siegeChauffant" : true,
+                    "siegeElectrique" : true,
+                    "toitOuvrant" : false
+                },
+                "moteur" : {
+                    "type" : "essence",
+                    "puissance" : 250,
+                    "consommation" : 8.5
+                }
+            },
+            "XC90" : {
+                "marque" : "Volvo",
+                "couleur" : "noir",
+                "prix" : 50000,
+                "options" : {
+                    "climatisation" : true,
+                    "siegeChauffant" : true,
+                    "siegeElectrique" : true,
+                    "toitOuvrant" : true
+                },
+                "moteur" : {
+                    "type" : "diesel",
+                    "puissance" : 300,
+                    "consommation" : 6.5
+                }
+            }
+        },
+        "planning" : {
+            "lundi" : {
+                "9h" : "dispobible",
+                "10h" : "dispobible",
+                "11h" : "dispobible",
+                "16h" : "dispobible"
+            },
+            "mardi" : {
+                "9h" : "dispobible",
+                "14h" : "dispobible",
+                "17h" : "dispobible",
+                "18h" : "dispobible"
+            },
+            "vendredi" : {
+                "13h" : "dispobible",
+                "14h" : "dispobible",
+                "15h" : "dispobible",
+                "16h" : "dispobible"
+            }
+        }
+    }
+}
